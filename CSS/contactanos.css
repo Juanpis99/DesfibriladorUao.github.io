@@ -1,0 +1,128 @@
+*, *::before, *::after {
+    -webkit-box-sizing: inherit;
+            box-sizing: inherit;
+    text-decoration: none;
+    list-style:decimal;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  
+  html {
+    font-size: 62.5%;
+    min-height: 100%;
+  }
+  
+  html, body {
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  body {
+    height: 100%;
+    width: 100%;
+    background-color: #FBFBFB;
+
+  }
+  h1{
+    font-size: 4.3rem;
+    font-weight: 700;
+    color:#3f9ce2 ;
+
+}
+h2{
+    font-size: 3rem;
+    font-weight: 400;
+    color: #3f9ce2;
+}
+h3{
+    font-size: 2.5rem;
+    font-weight: 300;
+    color: beige;
+
+}
+li{
+    margin-right: 5rem;
+    margin-bottom: 2.5rem;
+}
+p,li{
+    color: rgba(88, 88, 88);
+    font-size: 1.8rem;
+}
+a{
+    font-size: 1.7rem;
+    font-weight: normal;
+    color: rgb(88, 88, 88);
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+}
+a:hover{
+    color: #3f9ce2;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+}
+.a-italic{
+font-style: italic;
+border-bottom: 1px solid #3f9ce2;
+}
+
+header{
+    width: 100%;
+    padding: 40px;
+}
+.back-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 20px;
+}
+
+.info-container{
+    width: 100%;
+    min-height: 500px;
+    padding:  0 4rem;
+    padding-bottom: 3rem;
+  }
+
+  .info-container__main{
+    background-color: white;
+    width: 100%;
+    min-height: 500px;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px !important;
+    border-radius: 20px  ;
+    -webkit-border-radius: 20px  ;
+    -moz-border-radius: 20px  ;
+    -ms-border-radius: 20px  ;
+    -o-border-radius: 20px  ;
+    padding: 2.5rem;
+}
+
+.inscripcion-container{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.inscripcion-container a{
+    padding: 1.5rem 3rem;
+    background-color: #3f9ce2;
+    color: white;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+.inscripcion-container a:hover{
+    padding: 1.5rem 3rem;
+    background-color: #4cd431;
+}
